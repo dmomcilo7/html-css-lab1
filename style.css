@@ -1,0 +1,80 @@
+/* list of resets */
+body,
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+header {
+  padding: 0px;
+  margin: 5px;
+}
+
+h3 {
+  margin: 10px;
+  color: #000;
+  margin-bottom: 2px;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  background-color: #f9fafc;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.nav-list a {
+  padding: 0px;
+  margin: 2px 10px;
+  text-decoration: none;
+  color: #69696a;
+}
+
+p {
+  color: #69696a;
+  border-left: solid #69696a;
+  margin: 5px;
+  padding: 10px;
+}
+
+.paragraph-accent {
+  color: #fff;
+  background-color: #000;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(247, 193, 162, 0.7);
+}
+
+.footer-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding-left: 300px;
+}
+
+.footer-list a {
+  text-decoration: none;
+  margin: 10px;
+  color: #69696a;
+}
+
+.footer-header {
+  position: relative;
+  transform: translateY(40px);
+  left: 0;
+  padding-bottom: 8px;
+  color: #000;
+}
